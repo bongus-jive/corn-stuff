@@ -1,4 +1,7 @@
 [ 
 	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornspear" } },
-	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"corncrafting" } }
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"corndagger" } },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornpistol" } },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornassault" } },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornaddon" } }
 ]
