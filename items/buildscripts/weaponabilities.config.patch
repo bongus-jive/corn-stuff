@@ -8,5 +8,10 @@
 	"op": "add",
 	"path": "/cornshockwave_l6",
 	"value": "/items/cornabilities/shockwave/cornshockwave_l6.weaponability"
+	},
+	{
+	"op": "add",
+	"path": "/cornblast",
+	"value": "/items/cornabilities/cornblast/cornblast.weaponability"
 	}
 ]

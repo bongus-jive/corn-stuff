@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "cornbar", "count" : 5 },
-    { "item" : "plantfibre", "count" : 1000 },
+    { "item" : "plantfibre", "count" : 50 },
     { "item" : "diamond", "count" : 5 }
   ],
   "output" : { "item" : "cornpistol", "count" : 1 },

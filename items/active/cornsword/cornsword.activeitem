@@ -1,0 +1,63 @@
+{
+  "itemName" : "cornsword",
+  "price" : 960,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "yes corn good",
+  "shortdescription" : "Corn Katana",
+  "tooltipKind" : "base",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword","upgradeableWeapon"],
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "/items/active/cornsword/cornsword.animation",
+  "animationParts" : {
+    "blade" : "blade.png",
+    "handle" : "handle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.5,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.80,
+    "baseDps" : 21.5,
+
+    "stances" : {
+      "fire1" : {
+        "duration" : 0.05
+      },
+      "wait1" : {
+        "duration" : 0.05
+      },
+      "fire2" : {
+        "duration" : 0.1
+      },
+      "wait2" : {
+        "duration" : 0.05
+      }
+    }
+  },
+
+  "altAbilityType" : "cornblast",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "shortdescription" : "Corn Katana ^yellow;^reset;"
+  }
+}

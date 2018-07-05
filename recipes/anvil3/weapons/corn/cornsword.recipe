@@ -4,6 +4,6 @@
     { "item" : "plantfibre", "count" : 50 },
     { "item" : "diamond", "count" : 5 }
   ],
-  "output" : { "item" : "corndagger", "count" : 1 },
+  "output" : { "item" : "cornsword", "count" : 1 },
   "groups" : [ "craftingcorn", "corn", "all" ]
 }

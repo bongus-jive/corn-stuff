@@ -1,0 +1,15 @@
+{
+  "itemName" : "mecharmcorn2",
+  "price" : 6000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mecharmcorn2.png",
+  "description" : "A mech arm equipped with a corn Gatling gun.",
+  "shortdescription" : "Gatling Corn Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "gatlingcorn"]
+}

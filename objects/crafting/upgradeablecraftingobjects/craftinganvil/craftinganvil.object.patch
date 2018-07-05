@@ -13,7 +13,7 @@
                         "title":"Corn Replicator",
                         "subtitle": "mmm... corn.",
                       "icon": {
-                        "file": "/objects/corn/corncrafting/wicon.png"
+                        "file": "/objects/crafting/upgradeablecraftingobjects/craftinganvil/wicon.png"
                       }
                     }
                 },
