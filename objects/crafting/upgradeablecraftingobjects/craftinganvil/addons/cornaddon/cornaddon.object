@@ -4,28 +4,28 @@
   "rarity" : "Legendary",
   "category" : "crafting",
   "price" : 1250,
-  "description" : "A module that adds additional corn equipment and armour to the replicator.",
-  "shortdescription" : "^orange;Corn Addon^white;",
+  "description" : "A module that adds corn to the replicator.",
+  "shortdescription" : "^yellow;Corn Addon^white;",
   "race" : "generic",
 
-  "apexDescription" : "Insert Text",
-  "avianDescription" : "Insert Text",
-  "floranDescription" : "Insert Text",
-  "glitchDescription" : "Insert Text",
-  "humanDescription" : "Insert Text",
-  "hylotlDescription" : "Insert Text",
-  "novakidDescription" : "Insert Text",
+  "apexDescription" : "How useful, this will add corn to the replicator.",
+  "avianDescription" : "I can use this to add corn to the replicator.",
+  "floranDescription" : "Floran use thisss to add corn to replicator.",
+  "glitchDescription" : "Excited. Using this module will add corn to the replicator.",
+  "humanDescription" : "Using this adds corn to the replicator!",
+  "hylotlDescription" : "This useful module will add corn to the replicator.",
+  "novakidDescription" : "This handy ol' module will add corn to the replicator.",
 
   "printable" : false,
 
-  "placementImage" : "cornaddonpreview.png",
+  "placementImage" : "acceleratoraddonpreview.png",
   "placementImagePosition" : [-24, -24],
 
-  "inventoryIcon" : "cornaddonicon.png",
+  "inventoryIcon" : "acceleratoraddonicon.png",
   "orientations" : [
     {
       "direction" : "left",
-      "image" : "cornaddon.png:<color>",
+      "image" : "acceleratoraddon.png:<color>",
 
       "imagePosition" : [-8, 0],
 
@@ -40,8 +40,8 @@
   "animation" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.animation",
   "animationPosition" : [-8, 0],
   "animationParts" : {
-    "addon" : "cornaddon.png",
-    "addonfullbright" : "cornaddonfullbright.png"
+    "addon" : "acceleratoraddon.png",
+    "addonfullbright" : "acceleratoraddonfullbright.png"
   },
 
   "scripts" : [ "/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.lua" ],
