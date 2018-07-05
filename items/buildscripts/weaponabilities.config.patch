@@ -1,0 +1,12 @@
+[
+	{
+	"op": "add",
+	"path": "/cornshockwave",
+	"value": "/items/cornabilities/shockwave/cornshockwave.weaponability"
+	},
+	{
+	"op": "add",
+	"path": "/cornshockwave_l6",
+	"value": "/items/cornabilities/shockwave/cornshockwave_l6.weaponability"
+	}
+]

@@ -1,0 +1,74 @@
+
+[
+{ "op": "add", "path": "/animatedParts/stateTypes/stage/states/craftinganvil3/properties/lightsOff/-", "value": 
+{
+"cornglow"
+}
+},
+{ "op": "add", "path": "/animatedParts/stateTypes/stage/states/accelerator/properties/lightsOff/-", "value": 
+{
+"cornglow"
+}
+},
+{ "op": "add", "path": "/animatedParts/stateTypes/stage/states/separator/properties/lightsOff/-", "value": 
+{
+"cornglow"
+}
+},
+{ "op": "add", "path": "/animatedParts/stateTypes/stage/states/manipulator/properties/lightsOff/-", "value": 
+{
+"cornglow"
+}
+},
+{ "op": "add", "path": "/animatedParts/stateTypes/stage/states/-", "value": 
+{
+"corn" : 
+{
+"properties" : 
+{
+"lightsOff" : [ "replicatorglow", "acceleratorglow", "separatorglow", "manipulatorglow" ],
+"lightsOn" : [ "cornglow" ]
+}
+}
+}
+},
+{ "op": "add", "path": "/parts/lights/partStates/stage/-", "value": 
+{
+"corn" : 
+{
+"properties" : 
+{
+"image" : "cornanvil.png:<color>.corn"
+}
+}
+
+}
+},
+{ "op": "add", "path": "/parts/chassis/partStates/stage/-", "value": 
+{
+"corn" : 
+{
+"properties" : 
+{
+"image" : "cornanvil.png:<color>.corn"
+}
+} 
+}
+},
+{ "op": "add", "path": "/parts/chassis/partStates/stage/-", "value": 
+{
+"cornlow" : 
+{
+"active" : false,
+"color" : [250, 250, 50],
+"position" : [0, 2],
+
+"flickerPeriod" : 0.9,
+"flickerMinIntensity" : 0.75,
+"flickerMaxIntensity" : 0.8,
+"flickerPeriodVariance" : 0,
+"flickerIntensityVariance" : 0
+}
+}
+}
+]

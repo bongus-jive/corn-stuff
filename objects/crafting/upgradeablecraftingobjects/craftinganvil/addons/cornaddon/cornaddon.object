@@ -1,0 +1,56 @@
+{
+  "objectName" : "cornaddon",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "crafting",
+  "price" : 1250,
+  "description" : "A module that adds additional corn equipment and armour to the replicator.",
+  "shortdescription" : "^orange;Corn Addon^white;",
+  "race" : "generic",
+
+  "apexDescription" : "Insert Text",
+  "avianDescription" : "Insert Text",
+  "floranDescription" : "Insert Text",
+  "glitchDescription" : "Insert Text",
+  "humanDescription" : "Insert Text",
+  "hylotlDescription" : "Insert Text",
+  "novakidDescription" : "Insert Text",
+
+  "printable" : false,
+
+  "placementImage" : "cornaddonpreview.png",
+  "placementImagePosition" : [-24, -24],
+
+  "inventoryIcon" : "cornaddonicon.png",
+  "orientations" : [
+    {
+      "direction" : "left",
+      "image" : "cornaddon.png:<color>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2] ],
+
+      "fgAnchors" : [ [-1, -1], [0, -1] ],
+      "anchorMaterial" : "metamaterial:anviladdonbase"
+    }
+  ],
+
+  "forceFinishAnimationsInInit" : false,
+  "animation" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.animation",
+  "animationPosition" : [-8, 0],
+  "animationParts" : {
+    "addon" : "cornaddon.png",
+    "addonfullbright" : "cornaddonfullbright.png"
+  },
+
+  "scripts" : [ "/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.lua" ],
+
+  "addonConfig" : {
+    "isAddons" : [
+      {
+        "name" : "cornAddon"
+      }
+    ]
+  }
+}
