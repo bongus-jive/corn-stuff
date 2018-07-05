@@ -1,0 +1,4 @@
+[ 
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornspear" } },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"corncrafting" } }
+]

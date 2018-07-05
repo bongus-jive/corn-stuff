@@ -5,5 +5,5 @@
     { "item" : "diamond", "count" : 5 }
   ],
   "output" : { "item" : "cornspear", "count" : 1 },
-  "groups" : [ "craftingcorn", "weapons", "all" ]
+  "groups" : [ "craftingcorn", "corn", "all" ]
 }

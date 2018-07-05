@@ -18,14 +18,14 @@
 
   "printable" : false,
 
-  "placementImage" : "acceleratoraddonpreview.png",
+  "placementImage" : "cornaddonpreview.png",
   "placementImagePosition" : [-24, -24],
 
-  "inventoryIcon" : "acceleratoraddonicon.png",
+  "inventoryIcon" : "cornaddonicon.png",
   "orientations" : [
     {
       "direction" : "left",
-      "image" : "acceleratoraddon.png:<color>",
+      "image" : "cornaddon.png:<color>",
 
       "imagePosition" : [-8, 0],
 
@@ -40,8 +40,8 @@
   "animation" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.animation",
   "animationPosition" : [-8, 0],
   "animationParts" : {
-    "addon" : "acceleratoraddon.png",
-    "addonfullbright" : "acceleratoraddonfullbright.png"
+    "addon" : "cornaddon.png",
+    "addonfullbright" : "cornaddonfullbright.png"
   },
 
   "scripts" : [ "/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.lua" ],
