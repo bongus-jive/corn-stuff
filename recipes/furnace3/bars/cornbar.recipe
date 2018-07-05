@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "corn", "count" : 5 },
+	{ "item" : "durasteelbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "cornbar",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

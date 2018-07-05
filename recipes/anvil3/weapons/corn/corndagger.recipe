@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "corn", "count" : 50 },
+    { "item" : "cornbar", "count" : 5 },
     { "item" : "plantfibre", "count" : 1000 },
     { "item" : "diamond", "count" : 5 }
   ],
-  "output" : { "item" : "cornspear", "count" : 1 },
+  "output" : { "item" : "corndagger", "count" : 1 },
   "groups" : [ "craftingcorn", "corn", "all" ]
 }
