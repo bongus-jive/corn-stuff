@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "description" : "yes corn good",
   "shortdescription" : "Corn Katana",
-  "tooltipKind" : "base",
+  "tooltipKind" : "sword",
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : ["weapon", "melee", "broadsword","upgradeableWeapon"],
@@ -35,7 +35,7 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.80,
-    "baseDps" : 21.5,
+    "baseDps" : 16.5,
 
     "stances" : {
       "fire1" : {

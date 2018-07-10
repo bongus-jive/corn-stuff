@@ -38,14 +38,14 @@
     "class" : "GunFire",
 
     "fireTime" : 0.06,
-    "baseDps" : 10.5,
+    "baseDps" : 14.5,
     "energyUsage" : 31.5,
     "inaccuracy" : 0.02,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "cornbullet",
+    "projectileType" : ["cornbullet","cornbullet2"],
     "projectileParameters" : {
       "knockback" : 5
     },
