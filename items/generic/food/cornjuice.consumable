@@ -1,0 +1,25 @@
+{
+  "itemName" : "cornjuice",
+  "rarity" : "Common",
+  "price" : 75,
+  "category" : "drink",
+  "inventoryIcon" : "cornjuice.png",
+  "description" : "mmm corn juice",
+  "shortdescription" : "Corn Juice",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 90
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

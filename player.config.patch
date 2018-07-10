@@ -8,5 +8,7 @@
 	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"mecharmcorn" } },
 	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"mecharmcorn2" } },
 	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornbar" } },
-	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornaddon" } }
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornaddon" } },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornbread" } },
+	{"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornjuice" } }
 ]
