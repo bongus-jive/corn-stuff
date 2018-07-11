@@ -8,7 +8,7 @@
   "builder" : "/items/buildscripts/buildmechpart.lua",
   "inventoryIcon" : "mecharmcorn2.png",
   "description" : "A mech arm equipped with a corn Gatling gun.",
-  "shortdescription" : "Gatling Corn Mech Arm",
+  "shortdescription" : "Corn Mech Arm (Gatling)",
   "itemTags" : [ ],
 
   "mechPart" : ["arm", "gatlingcorn"]

@@ -13,5 +13,10 @@
 	"op": "add",
 	"path": "/cornblast",
 	"value": "/items/cornabilities/cornblast/cornblast.weaponability"
+	},
+	{
+	"op": "add",
+	"path": "/toothblast",
+	"value": "/items/active/teethcob/ability/toothblast.weaponability"
 	}
 ]
