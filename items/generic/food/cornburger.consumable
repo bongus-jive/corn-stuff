@@ -1,6 +1,6 @@
 {
   "itemName" : "cornburger",
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "price" : 415,
   "category" : "preparedFood",
   "inventoryIcon" : "cornburger.png",
