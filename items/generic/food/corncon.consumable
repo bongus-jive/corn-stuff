@@ -1,0 +1,28 @@
+{
+  "itemName" : "corncon",
+  "rarity" : "Common",
+  "price" : 175,
+  "category" : "preparedFood",
+  "inventoryIcon" : "corncon.png",
+  "description" : "surprisingly works well together",
+  "shortdescription" : "Corncon",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 113
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 113
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "cornicing",
+  "rarity" : "Common",
+  "price" : 225,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cornicing.png",
+  "description" : "Corn with questionably placed icing",
+  "shortdescription" : "Frosted Corn",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 270
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}
