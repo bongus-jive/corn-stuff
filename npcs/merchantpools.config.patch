@@ -14,6 +14,7 @@
 			{ "item" : {"name" : "cornhead" }},
 			{ "item" : {"name" : "cornchest" }},
 			{ "item" : {"name" : "cornlegs" }},
+			{ "item" : {"name" : "corn-codex" }},
 			{ "item" : {"name" : "teethcob" }, "rarity" : 0.00002 }
 		]]]
 	}

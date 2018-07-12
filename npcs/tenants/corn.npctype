@@ -1,0 +1,26 @@
+{
+  "type" : "corn",
+  "baseType" : "generictenant",
+
+  "identity" : {
+    "name" : "corn",
+    "hairGroup" : "hair",
+    "hairType" : "10",
+    "bodyDirectives" : "?replace;6f2919=5e6534;ffca8a=b7d179;e0975c=8eab59;a85636=808a44?replace;735e3a=144c20;f7e7b2=4ece61;a38d59=228a38;d9c189=34ae47",
+    "emoteDirectives" : "?replace;6f2919=5e6534;ffca8a=b7d179;e0975c=8eab59;a85636=808a44?replace;735e3a=144c20;f7e7b2=4ece61;a38d59=228a38;d9c189=34ae47",
+    "hairDirectives" : "?replace;dc1f00=bea439;be1b00=896d22;f32200=e6e756?replace;735e3a=144c20;f7e7b2=4ece61;a38d59=228a38;d9c189=34ae47",
+	"species": "floran"
+  },
+  
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "cornhead" } ],
+            "chest" : [ { "name" : "floranleafchest" } ],
+            "legs" : [ { "name" : "floranleaflegs" } ]
+          }
+      ]]
+    ]
+  }
+}
