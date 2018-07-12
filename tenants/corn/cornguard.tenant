@@ -1,0 +1,25 @@
+{
+  "name": "corn",
+  "priority": 69,
+
+  "colonyTagCriteria": {
+    "corn": 1,
+    "combat": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "level": 10,
+      "type": "cornguard",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

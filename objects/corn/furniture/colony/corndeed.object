@@ -1,0 +1,25 @@
+{
+  "objectName" : "corndeed",
+  "colonyTags" : ["corn"],
+  "rarity" : "Rare",
+  "description" : "doots a corn man into existance",
+  "shortdescription" : "Corn Deed",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+
+  "inventoryIcon" : "corndeed.png:default",
+  "orientations" : [
+    {
+      "image" : "corndeed.png:default",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

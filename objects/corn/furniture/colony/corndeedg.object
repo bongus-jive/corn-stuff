@@ -1,0 +1,25 @@
+{
+  "objectName" : "corndeedg",
+  "colonyTags" : ["corn", "combat"],
+  "rarity" : "Essential",
+  "description" : "doots a corn guard into existance",
+  "shortdescription" : "Corn Deed (Guard)",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+
+  "inventoryIcon" : "corndeed.png:guard",
+  "orientations" : [
+    {
+      "image" : "corndeed.png:guard",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

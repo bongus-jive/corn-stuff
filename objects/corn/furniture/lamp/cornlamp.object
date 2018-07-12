@@ -1,18 +1,10 @@
 {
   "objectName" : "cornlamp",
-  "colonyTags" : ["apex","apexvillage","light"],
-  "rarity" : "Common",
-  "description" : "A tall wooden lamp with a polka dot lamp shade.",
+  "colonyTags" : ["light"],
+  "rarity" : "Rare",
+  "description" : "its like, glowing corn, my dude.",
   "shortdescription" : "Corn Lamp",
   "race" : "apex",
-
-  "apexDescription" : "Standard issue.",
-  "avianDescription" : "A tall lamp. I wonder how it functions? There are no crystals.",
-  "floranDescription" : "Tall lamp, bright light.",
-  "glitchDescription" : "Satisfied. With light comes safety.",
-  "humanDescription" : "A tall, bright lamp.",
-  "hylotlDescription" : "This lamp could light a large chamber.",
-  "novakidDescription" : "It's a tall, standin' lamp.",
 
   "category" : "light",
   "price" : 90,
