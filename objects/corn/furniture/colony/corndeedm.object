@@ -2,7 +2,7 @@
   "objectName" : "corndeedm",
   "colonyTags" : ["corn", "storage"],
   "rarity" : "Uncommon",
-  "description" : "doots a corn merchant into existance",
+  "description" : "doots a corn merchant into existance \n^red;disabled because it doesnt seem to work haha",
   "shortdescription" : "Corn Deed (Merchant)",
   "race" : "generic",
   "category" : "decorative",

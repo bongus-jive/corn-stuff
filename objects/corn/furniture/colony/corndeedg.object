@@ -2,7 +2,7 @@
   "objectName" : "corndeedg",
   "colonyTags" : ["corn", "combat"],
   "rarity" : "Essential",
-  "description" : "doots a corn guard into existance",
+  "description" : "doots a corn guard into existance \n^red;disabled because it doesnt seem to work haha",
   "shortdescription" : "Corn Deed (Guard)",
   "race" : "generic",
   "category" : "decorative",

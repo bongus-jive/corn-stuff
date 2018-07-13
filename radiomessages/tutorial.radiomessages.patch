@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/pickupcorn",
+    "value": {
+      "type": "tutorial",
+      "text": "dude, you found corn."
+    }
+  }
+]

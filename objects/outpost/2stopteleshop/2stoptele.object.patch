@@ -3,7 +3,7 @@
     "op": "add",
     "path": "/npctypes/-",
     "value": {
-      "type" : "cornmerchant",
+      "type" : "cornmerchantoutpost",
       "species" : [ "floran" ]
     }
   }

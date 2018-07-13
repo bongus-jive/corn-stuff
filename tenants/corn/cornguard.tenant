@@ -1,10 +1,10 @@
 {
   "name": "corn",
-  "priority": 69,
+  "priority": 20,
 
   "colonyTagCriteria": {
-    "corn": 1,
-    "combat": 1
+    "corn": 2,
+    "combat": 2
   },
 
   "tenants": [

@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "cornbar", "count" : 10 }
-  ],
-  "output" : { "item" : "corndeed", "count" : 1 },
-  "groups" : [ "craftingcorn", "cornf", "all" ]
-}

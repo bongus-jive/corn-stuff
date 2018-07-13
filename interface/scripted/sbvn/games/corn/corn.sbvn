@@ -18,7 +18,7 @@
   "scenes" : {
     "pre_credits" : {
       "background" : "bg_space1",
-      "text" : "[this story was written by a stupoid 15 year old at 2:27am haha]",
+      "text" : "[this story was written by a stupid starfish at 2:27am haha]",
       "continue" : "intro0"
     },
     "intro0" : {
@@ -236,7 +236,7 @@
     },
     "goodEnding7" : {
       "background" : "bg_cornsky",
-      "text" : "The being speaks. \"beep beep im a jeep\", he says.",
+      "text" : "The being speaks. \"hey daddy\", he says.",
       "continue" : "goodEnding8"
     },
     "goodEnding8" : {
