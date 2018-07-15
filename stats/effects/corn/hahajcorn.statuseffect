@@ -1,0 +1,11 @@
+{
+  "name" : "hahajcorn",
+  "effectConfig" : {},
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "hahajcorn.lua"
+  ],
+
+  "label" : "hahajcorn"
+}
