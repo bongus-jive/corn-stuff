@@ -2,7 +2,7 @@
   "projectileName" : "corndart",
   "image" : "blowdart.png",
   "animationCycle" : 0.25,
-  "frameNumber" : 1,
+  "frameNumber" : 4,
   "damageKindImage" : "icon.png",
   "pointLight" : false,
   "actionOnReap" : [
