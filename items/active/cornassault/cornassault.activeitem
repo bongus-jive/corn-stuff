@@ -91,10 +91,11 @@
   "upgradeParameters" : {
 	"shortdescription" : "Corn Assault Rifle ^yellow;^reset;",
 	"inventoryIcon" : "cornassault_l6.png",
-  "animationParts" : {
-    "butt" : "",
-    "middle" : "cornassault_l6.png",
-    "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    "animationParts" : {
+      "butt" : "",
+      "middle" : "cornassault_l6.png",
+      "barrel" : "",
+      "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    }
   }
 }
