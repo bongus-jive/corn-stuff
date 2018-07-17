@@ -12,6 +12,7 @@
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornlegs" } },
     
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornbar" } },
+    {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"liquidcorn" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornaddon" } },
     
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cannedcorn" } },
@@ -24,5 +25,7 @@
     
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"corncouch" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornlamp" } },
-    {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornsimulator" } }
+    {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornsimulator" } },
+	
+    {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"hoverbikecontrollercorn" } }
 ]

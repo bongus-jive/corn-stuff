@@ -111,12 +111,12 @@
     },
     "inside1" : {
       "background" : "bg_title",
-      "text" : "time to get inside the corn",
+      "text" : "time to put corn inside me",
       "continue" : "inside2"
     },
     "inside2" : {
       "background" : "bg_title",
-      "text" : "[corn being inserted inside you] holy FUCK the corn is entering me",
+      "text" : "[sexual corn noises] holy FUCK the corn is entering me",
       "continue" : "inside3"
     },
     "inside3" : {

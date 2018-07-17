@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cornbar", "count" : 12 }
+  ],
+  "duration" : 3,
+  "output" : { "item" : "hoverbikecontrollercorn", "count" : 1 },
+  "groups" : [ "craftingcorn", "corn", "all" ]
+}

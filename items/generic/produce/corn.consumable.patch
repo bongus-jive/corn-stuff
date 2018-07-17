@@ -1,7 +1,29 @@
 [
   {
+    "op": "remove",
+    "path": "/builder"
+  },
+  {
+    "op": "remove",
+    "path": "/itemAgingScripts"
+  },
+  {
+    "op": "remove",
+    "path": "/rottingMultiplier"
+  },
+  {
     "op": "add",
     "path": "/radioMessagesOnPickup",
     "value": [ "pickupcorn" ]
+  },
+  {
+    "op": "replace",
+    "path": "/rarity",
+    "value": "Legendary"
+  },
+  {
+    "op": "replace",
+    "path": "/maxStack",
+    "value": 10000
   }
 ]
