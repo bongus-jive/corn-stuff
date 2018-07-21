@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "wheat", "count" : 1 },
-    { "item" : "corn", "count" : 1 }
-  ],
-  "output" : { "item" : "cornbread", "count" : 1 },
-  "groups" : [ "craftingfood", "sides" ]
-}
