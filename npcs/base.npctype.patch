@@ -1,7 +1,0 @@
-[
-    {
-        "op":"add",
-        "path":"/scripts/-",
-        "value":"/scripts/cy/npc_corn.lua"
-    }
-]

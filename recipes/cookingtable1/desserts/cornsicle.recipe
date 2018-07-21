@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "sugar", "count" : 1 },
-    { "item" : "snowball", "count" : 1 },
-    { "item" : "corncob", "count" : 1 }
-  ],
-  "output" : { "item" : "cornsicle", "count" : 1 },
-  "groups" : [ "craftingfood", "desserts" ]
-}
