@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "cornbar", "count" : 10 }
   ],
-  "output" : { "item" : "cornassault", "count" : 1 },
+  "output" : { "item" : "cornsword2", "count" : 1 },
   "groups" : [ "craftingcorn", "corn", "all" ]
 }
