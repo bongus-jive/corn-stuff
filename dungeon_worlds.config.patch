@@ -1,0 +1,16 @@
+[
+  {
+    "op" : "add",
+    "path" : "/cornworld",
+    "value" : {
+      "primaryDungeon" : "cornworld",
+      "threatLevel" : 2,
+      "gravity" : 60,
+      "worldSize" : [600, 600],
+      "dungeonBaseHeight" : 300,
+      "ambientLightLevel" : [128, 128, 128],
+      "musicTrack" : "/music/title-menu-music.ogg",
+      "environmentStatusEffects" : ["dontstarve"]
+    }
+  }
+]

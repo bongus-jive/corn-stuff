@@ -36,5 +36,10 @@
   ],
 
   "objectType" : "loungeable",
-  "sitFlipDirection" : false
+  "sitFlipDirection" : false,
+  "sitArmorCosmeticOverrides" : {
+    "head" : "cornhead",
+    "chest" : "cornchest",
+    "legs" : "cornlegs"
+  }
 }

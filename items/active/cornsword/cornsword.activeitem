@@ -307,7 +307,7 @@
 			"idle": {
 				"armRotation" : -90,
 				"weaponRotation" : -10,
-				"twoHanded": true,
+				"twoHanded": false,
 				"allowRotate": false,
 				"allowFlip": true
 			},
@@ -460,14 +460,7 @@
 		}
 	},
 
-  "altAbilityType" : "cornblast",
-  "altAbility" : {
-    "ability" : {
-      "projectileParameters" : {
-        "baseDamage" : 5
-      }
-	}
-  },
+  "altAbilityType" : "flipcorn",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua",
 
@@ -479,19 +472,8 @@
 		"handleFullbright": "",
 		"blade": "bladel6.png"
 	},
-    "altAbility" : {
-        "projectileTimesAndAngles" : [
-          [0.02, -40],
-          [0.10, -20],
-          [0.18, 0],
-          [0.10, 20],
-          [0.02, 40],
-		  [0.18, -210],
-		  [0.18, -150]
-        ],
-		"projectileParameters" : {
-          "baseDamage" : 5.5
-        }
-    }
+	"altAbility" : {
+	    "jumpVelocity" : [10, 45]
+	}
   }
 }

@@ -6,6 +6,7 @@
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornassault" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornsword" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornsword2" } },
+    {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornsword3" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"mecharmcorn" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"mecharmcorn2" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornhead" } },

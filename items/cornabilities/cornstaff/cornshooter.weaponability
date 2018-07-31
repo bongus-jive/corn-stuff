@@ -1,0 +1,20 @@
+{
+  "ability" : {
+    "type" : "cornshooter",
+    "name" : "Corn Shooter",
+    "scripts" : ["/items/cornabilities/cornstaff/cornshooter.lua"],
+    "class" : "ControlProjectile",
+
+    "maxCastRange" : 45,
+
+    "energyPerShot" : 30,
+    "projectileSpawnInterval" : 0.4,
+
+    "projectileType" : "cornstaff1",
+    "projectileParameters" : {
+      "baseDamage" : 9
+    },
+
+    "projectileDelayEach" : 0.25
+  }
+}

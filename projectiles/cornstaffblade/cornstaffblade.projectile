@@ -1,0 +1,124 @@
+{
+  "projectileName" : "cornstaffblade",
+  "physics" : "default",
+  "timeToLive" : 3,
+  "image" : "cornstaffblade.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [0, 0, 0],
+  "frameNumber" : 1,
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "spear",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+
+  "fullbright" : false,
+  "emitters" : ["energyweapon"],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/throw_item.ogg"
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "defaultgreen",
+          "time" : 0.1,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "defaultgreen",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 340
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 320
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 300
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 220
+    }
+  ],
+
+  "bounces" : 0,
+
+  "scripts" : [ "cornstaffblade.lua" ],
+
+  "triggerSpeed" : 80,
+
+  "controlRotation" : {
+    "maxSpeed" : 16,
+    "controlForce" : 70,
+    "friction" : 10
+  }
+}

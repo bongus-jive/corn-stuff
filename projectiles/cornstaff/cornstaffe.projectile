@@ -1,0 +1,13 @@
+{
+  "projectileName" : "cornstaffe",
+  "image" : "cornstaffe.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "power" : 5,
+  "animationLoops" : false,
+  "emitters" : [ ],
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "default"
+}

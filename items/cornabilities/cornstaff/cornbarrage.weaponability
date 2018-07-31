@@ -1,0 +1,23 @@
+{
+  "ability" : {
+    "type" : "cornbarrage",
+    "name" : "Corn Barrage",
+    "scripts" : ["/items/cornabilities/cornstaff/cornbarrage.lua"],
+    "class" : "ControlProjectile",
+
+    "energyCost" : 65,
+
+    "maxCastRange" : 25,
+
+    "projectileCount" : 5,
+    "projectileDistance" : 3,
+    "projectileType" : "cornstaffblade",
+    "projectileParameters" : {
+      "baseDamage" : 40
+    },
+    "triggerSound" : ["/sfx/gun/plasma_mp2.ogg"],
+
+    "projectileDelayFirst" : 1.0,
+    "projectileDelayEach" : 0.25
+  }
+}
