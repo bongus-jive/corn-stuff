@@ -1,0 +1,31 @@
+{
+  "objectName" : "corndimensiontp",
+  "colonyTags" : ["misc"],
+  "objectType" : "teleporter",
+  "rarity" : "Legendary",
+  "category" : "teleporter",
+  "price" : 1500,
+  "lightColor" : [80, 80, 80],
+  "fullbright" : true,
+  "description" : "heck yes corn dimensions",
+  "shortdescription" : "Corn Teleporter",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "cornteleporter.png:<color>", "fullbright" : true }, { "image" : "cornteleporterlit.png:<color>" } ],
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/objects/corn/corndimension/cornteleporter.config"
+
+}

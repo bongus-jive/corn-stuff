@@ -9,6 +9,7 @@
   "damageKindImage" : "icon.png",
   "physics" : "boomerang",
   "emitters" : [ ],
+  "bounces": 1,
   "actionOnReap" : [
     {
       "action" : "config",

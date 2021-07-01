@@ -1,7 +1,7 @@
 {
   "itemName" : "cornassault",
   "price" : 1500,
-  "maxStack" : 4,
+  "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "A fully automatic corn rifle.",
   "shortdescription" : "Corn Assault Rifle",
@@ -9,7 +9,7 @@
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","assaultrifle","upgradeableWeapon"],
-  "level" : 1,
+  "level" : 4,
 
   "inventoryIcon" : "cornassault.png",
 
@@ -37,13 +37,15 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.06,
-    "baseDps" : 14.5,
-    "energyUsage" : 31.5,
+    "fireTime" : 0.12,
+    "baseDps" : 19.5,
+    "energyUsage" : 18.5,
+    "projectileCount" : 1,
     "inaccuracy" : 0.02,
 
-    "projectileCount" : 1,
-    "fireType" : "auto",
+    "burstCount" : 5,
+    "burstTime" : 0.08,
+    "fireType" : "burst",
 
     "projectileType" : ["cornbullet","cornbullet2"],
     "projectileParameters" : {
@@ -91,6 +93,8 @@
   "upgradeParameters" : {
 	"shortdescription" : "Corn Assault Rifle ^yellow;^reset;",
 	"inventoryIcon" : "cornassault_l6.png",
+	"baseOffset" : [0.625, 0.125],
+    "muzzleOffset" : [1.875, 0.125],
     "animationParts" : {
       "butt" : "",
       "middle" : "cornassault_l6.png",

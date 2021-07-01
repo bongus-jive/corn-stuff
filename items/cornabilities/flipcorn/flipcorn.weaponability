@@ -86,6 +86,7 @@
         "armRotation" : 0,
         "weaponRotation" : 0,
         "twoHanded" : true,
+        "armAngularVelocity" : -1200,
 
         "allowRotate" : false,
         "allowFlip" : false

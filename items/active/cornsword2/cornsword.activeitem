@@ -274,7 +274,8 @@
 				"transformationGroups": ["swoosh"],
 				"burstCount": 4,
 				"particles": [
-				{ "particle": "defaultgreen"}
+					{ "particle" : "defaultgreen"},
+					{ "particle" : "defaultgreen"}
 				]
 			},
 			"blade": {
@@ -283,7 +284,8 @@
 				"emissionRate" : 30,
 				"offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
 				"particles" : [
-				{ "particle" : "defaultgreen"}
+					{ "particle" : "defaultgreen"},
+					{ "particle" : "defaultgreen"}
 				]
 			}
 		},

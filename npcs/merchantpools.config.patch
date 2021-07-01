@@ -9,6 +9,8 @@
 			{ "item" : {"name" : "cornpistol" }},
 			{ "item" : {"name" : "cornassault" }},
 			{ "item" : {"name" : "cornsword" }},
+			{ "item" : {"name" : "cornsword2" }},
+			{ "item" : {"name" : "cornsword3" }},
 			{ "item" : {"name" : "mecharmcorn" }},
 			{ "item" : {"name" : "mecharmcorn2" }},
 			{ "item" : {"name" : "cornhead" }},

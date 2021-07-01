@@ -4,7 +4,7 @@
     "path" : "/cornworld",
     "value" : {
       "primaryDungeon" : "cornworld",
-      "threatLevel" : 2,
+      "threatLevel" : 1,
       "gravity" : 60,
       "worldSize" : [600, 600],
       "dungeonBaseHeight" : 300,
