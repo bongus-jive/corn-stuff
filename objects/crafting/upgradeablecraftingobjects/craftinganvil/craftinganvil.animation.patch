@@ -1,31 +1,45 @@
 [
   {
-    "op": "add",
-    "path": "/animatedParts/stateTypes/stage/states/corn",
-    "value": {
-      "properties": {
-        "lightsOff": [],
-        "lightsOn": [ "replicatorglow", "acceleratorglow", "separatorglow", "manipulatorglow" ]
-      }
+		"op": "add",
+		"path": "/animatedParts/stateTypes/stage/states/corn",
+		"value": {
+			"properties": {
+				"lightsOff": ["replicatorglow", "acceleratorglow", "separatorglow", "manipulatorglow"],
+				"lightsOn": ["cornglow"]
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/lights/partStates/stage/corn",
+		"value": {
+			"properties": {
+				"image": "cornaddon.png"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/animatedParts/parts/chassis/partStates/stage/corn",
+		"value": {
+			"properties": {
+				"image": "craftinganvil3lit.png:<color>"
+			}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/lights/cornglow",
+		"value": {
+			"active": false,
+			"color": [160, 160, 0],
+			"position": [0, 2],
 
-    }
-  },
-  {
-    "op": "add",
-    "path": "/animatedParts/parts/lights/partStates/stage/corn",
-    "value": {
-      "properties": {
-        "image": "cornaddon.png:<color>.corn"
-      }
-    }
-  },
-  {
-    "op": "add",
-    "path": "/animatedParts/parts/chassis/partStates/stage/corn",
-    "value": {
-      "properties": {
-        "image": "cornaddon.png:<color>"
-      }
-    }
-  }
+			"flickerPeriod": 0.9,
+			"flickerMinIntensity": 0.75,
+			"flickerMaxIntensity": 0.8,
+			"flickerPeriodVariance": 0,
+			"flickerIntensityVariance": 0
+		}
+	}
 ]

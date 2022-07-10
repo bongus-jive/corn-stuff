@@ -1,24 +1,24 @@
-[{
-    "op": "add",
-    "path": "/upgradeStages/2/addonConfig/usesAddons/-",
-    "value": {
-        "name": "cornAddon",
-        "position": [0, 3],
-        "addonData": {
-            "animationState": "corn",
-            "interactData": {
-                "config" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/craftinganvilcorn.config",
-                "paneLayoutOverride": {
-                    "windowtitle": {
-                        "title":"Corn Replicator",
-                        "subtitle": "mmm... corn.",
-                      "icon": {
-                        "file": "/objects/crafting/upgradeablecraftingobjects/craftinganvil/wicon.png"
-                      }
-                    }
-                },
-                "filter": ["craftingcorn"]
+[
+  [{
+    "op" : "add",
+    "path" : "/upgradeStages/2/addonConfig/usesAddons/-",
+    "value" : {
+      "name" : "cornAddon",
+      "position" : [0, 3],
+      "addonData" : {
+        "animationState" : "corn",
+        "interactData" : {
+          "config" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/craftinganvilcorn.config",
+          "paneLayoutOverride" : {
+            "windowtitle" : {
+              "title" : "Corn Replicator",
+              "subtitle" : "mmm... corn.",
+              "icon" : {"file" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/cornwindowicon.png"}
             }
+          },
+          "filter" : ["craftinganvil", "craftinganvil2", "craftinganvil3", "craftingcorn"]
         }
+      }
     }
-}]
+  }]
+]
