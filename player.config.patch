@@ -16,7 +16,7 @@
     
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornbar" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"liquidcorn" } },
-    {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornaddon" } },
+    {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornaddonv2" } },
     
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cannedcorn" } },
     {"op":"add","path":"/defaultBlueprints/tier1/-","value":{ "item":"cornjuice" } },

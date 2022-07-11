@@ -1,11 +1,11 @@
 {
-  "objectName" : "cornaddon",
+  "objectName" : "cornaddonv2",
   "colonyTags" : ["crafting"],
   "rarity" : "Legendary",
   "category" : "crafting",
   "price" : 1250,
-  "description" : "A module that adds corn to the replicator.",
-  "shortdescription" : "^orange;Corn Addon^white;",
+  "description" : "A module that adds corn to the replicator. (visual)",
+  "shortdescription" : "^orange;Repaired Corn Addon^white;",
   "race" : "generic",
 
   "apexDescription" : "How useful, this will add corn to the replicator.",
@@ -18,14 +18,14 @@
 
   "printable" : false,
 
-  "placementImage" : "cornaddonpreview.png",
+  "placementImage" : "cornv2preview.png",
   "placementImagePosition" : [-24, -24],
 
   "inventoryIcon" : "cornaddonicon.png",
   "orientations" : [
     {
       "direction" : "left",
-      "image" : "cornaddon.png:<color>",
+      "image" : "cornv2.png:<color>",
 
       "imagePosition" : [-8, 0],
 
@@ -40,8 +40,8 @@
   "animation" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.animation",
   "animationPosition" : [-8, 0],
   "animationParts" : {
-    "addon" : "cornaddon.png",
-    "addonfullbright" : ""
+    "addon" : "cornv2.png",
+    "addonfullbright" : "cornv2fullbright.png"
   },
 
   "scripts" : [ "/scripts/objectaddons.lua", "/objects/crafting/upgradeablecraftingobjects/craftinganvil/addons/anviladdon.lua" ],

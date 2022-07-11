@@ -1,0 +1,7 @@
+{
+  "input" : [
+    ["corn", 2]
+  ],
+  "output" : "cornaddonv2",
+  "groups" : [ "craftingcorn", "cornf", "all" ]
+}

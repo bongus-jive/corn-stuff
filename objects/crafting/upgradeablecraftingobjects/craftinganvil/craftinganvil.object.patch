@@ -1,5 +1,5 @@
 [
-  [{
+  {
     "op" : "add",
     "path" : "/upgradeStages/2/addonConfig/usesAddons/-",
     "value" : {
@@ -13,5 +13,15 @@
         }
       }
     }
-  }]
+  },
+  {
+    "op" : "add",
+    "path" : "/upgradeStages/1/interactData/upgradeRecipeUnlocks/-",
+    "value" : "cornaddon"
+  },
+  {
+    "op" : "add",
+    "path" : "/upgradeStages/2/learnBlueprintsOnPickup/-",
+    "value" : "cornaddon"
+  }
 ]
