@@ -8,14 +8,7 @@
       "addonData" : {
         "animationState" : "corn",
         "interactData" : {
-          "config" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/craftinganvilcorn.config",
-          "paneLayoutOverride" : {
-            "windowtitle" : {
-              "title" : "Corn Replicator",
-              "subtitle" : "mmm... corn.",
-              "icon" : {"file" : "/objects/crafting/upgradeablecraftingobjects/craftinganvil/cornwindowicon.png"}
-            }
-          },
+          "config" : "/interface/windowconfig/cornstuff/craftinganvilcorn.config",
           "filter" : ["craftinganvil", "craftinganvil2", "craftinganvil3", "craftingcorn"]
         }
       }
