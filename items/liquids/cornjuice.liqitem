@@ -4,7 +4,7 @@
   "category" : "liquid",
   "inventoryIcon" : "cornjuice.png",
   "shortdescription" : "Corn Juice",
-  "description" : "the average corn produces 17 corn juice an hour \n^red;just use ^orange;/spawnitem liquidcorn 17 ^red;this actually takes an hour",
+  "description" : "the average corn produces 17 corn juice an hour",
 
   "liquid" : "cornjuice"
 }
