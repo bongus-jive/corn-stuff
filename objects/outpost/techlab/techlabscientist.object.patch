@@ -1,0 +1,4 @@
+[
+{"op":"add","path":"/offeredQuests/-","value":"techscientist-corn"},
+{"op":"add","path":"/turnInQuests/-","value":"techscientist-corn"}
+]

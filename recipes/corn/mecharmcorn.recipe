@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cornbar", "count" : 10 },
+    { "item" : "salvagearm", "count" : 15 }
+  ],
+  "duration" : 3,
+  "output" : { "item" : "mecharmcorn", "count" : 1 },
+  "groups" : [ "craftingcorn", "corn", "all" ]
+}

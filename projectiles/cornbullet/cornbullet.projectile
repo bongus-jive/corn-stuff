@@ -1,0 +1,34 @@
+{
+  "projectileName" : "cornbullet",
+  "image" : "cornbullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 165
+    },
+    {
+      "action" : "projectile",
+      "type" : "cornbullet2",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 195
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 5.0,
+  "speed" : 150,
+  "knockback" : 0
+}

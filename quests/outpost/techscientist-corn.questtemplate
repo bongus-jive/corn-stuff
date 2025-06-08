@@ -1,0 +1,38 @@
+{
+  "id" : "techscientist-corn",
+  "prerequisites" : ["techscientist2"],
+  "title" : "^orange;haha corn",
+  "text" : "im trying to turn my very being into corn but i ate all the corn. give me corn.",
+  "completionText" : "uynngnh cornb....",
+  "moneyRange" : [100, 100],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "give the dude some corn",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "corn",
+        "count" : 3,
+        "consume" : true
+      }
+    ],
+	 // Completion actions
+	"enableTech" : [
+	  "distortioncorn"
+    ]
+  }
+}

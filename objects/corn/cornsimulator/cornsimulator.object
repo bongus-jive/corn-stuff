@@ -1,0 +1,42 @@
+{
+  "objectName" : "cornsimulator",
+  "colonyTags" : ["electronic"],
+  "rarity" : "Essential",
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+
+  "description" : "patman spent 2 hours making this haha",
+  "shortdescription" : "corn simulator",
+  "race" : "generic",
+
+  "apexDescription" : "corn",
+  "avianDescription" : "corn",
+  "floranDescription" : "corn",
+  "glitchDescription" : "corn",
+  "humanDescription" : "corn",
+  "hylotlDescription" : "corn",
+  "novakidDescription" : "corn",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "cornsimulator.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 2,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : ["/interface/scripted/sbvn/sbvnobject.lua"],
+  "scriptDelta" : 0,
+
+  "interactAction" : "ScriptPane",
+  "interactData" : {
+    "baseConfig" : "/interface/scripted/sbvn/sbvngui.config",
+    "gameFile" : "/interface/scripted/sbvn/games/corn/corn.sbvn"
+  }
+}

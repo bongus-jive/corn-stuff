@@ -1,0 +1,31 @@
+[
+  {
+    "op": "add",
+    "path": "/animatedParts/stateTypes/stage/states/corn",
+    "value": {
+      "properties": {
+        "lightsOff": [],
+        "lightsOn": [ "replicatorglow", "acceleratorglow", "separatorglow", "manipulatorglow" ]
+      }
+
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/lights/partStates/stage/corn",
+    "value": {
+      "properties": {
+        "image": "cornaddon.png:<color>.corn"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/animatedParts/parts/chassis/partStates/stage/corn",
+    "value": {
+      "properties": {
+        "image": "cornaddon.png:<color>"
+      }
+    }
+  }
+]

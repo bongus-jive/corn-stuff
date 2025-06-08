@@ -1,0 +1,40 @@
+{
+  "objectName" : "corncouch",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "sitt",
+  "shortdescription" : "Corn Couch",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "inventoryIcon" : "woodenarmchair2icon.png",
+  "orientations" : [
+    {
+      "image" : "woodenarmchair2.png:<color>",
+      "imagePosition" : [-10, 0],
+      "sitCoverImage" : "/objects/corn/furniture/couch1/woodenarmchair2cover.png",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-3, 21],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "woodenarmchair2.png:<color>",
+      "imagePosition" : [-10, 0],
+      "sitCoverImage" : "/objects/corn/furniture/couch1/woodenarmchair2cover.png",
+      "direction" : "right",
+
+      "sitPosition" : [5, 21],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+}
